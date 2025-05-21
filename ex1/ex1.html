@@ -8,31 +8,34 @@
 <body>
     <h1>Form to add teacher</h1>
     <label for="name">Name: </label>
-    <input type="text" name="name"> <br>
+    <input type="text" name="name" required> <br>
 
     <legend>Gender</legend>
     <input type="radio" name="gender"> <label for="gender">Male</label><br>
     <input type="radio" name="gender"> <label for="gender">Female</label><br>
 
     <label for="date">Date of birth: </label>
-    <input type="date" name="date"> <br>
+    <input type="date" name="date" required> <br>
 
     <label for="email">Email: </label>
-    <input type="email" name="email"> <br>
+    <input type="email" name="email" required> <br>
 
     <label for="phone">Phone number: </label>
-    <input type="tel" name="phone"> <br>
+    <input type="tel" name="phone" required> <br>
 
     <label for="background">Background: </label>
-    <input type="color" name="background"> <br>
+    <input type="color" name="background" required> <br>
 
     <label for="country">Country: </label>
-    <input type="text" name="country"> <br>
+    <input type="text" name="country" required> <br>
 
     <label for="city">City: </label>
-    <input type="text" name="city"> <br>
+    <input type="text" name="city" required> <br>
 
-    <label for="coment">Coment: </label>
-    <input type="text" name="coment"> <br>
+    <label>Comment:<br>
+        <textarea name="comment" rows="4" cols="40"></textarea>
+    </label><br> <br>
+
+    <button type="submit">Submit</button>
 </body>
 </html>
